@@ -19,3 +19,11 @@ bestFruit();
 // o en el documento en si sin estar dentro de un bloque de código son variables globales
 
 //-Otro ejemplo de variable global, hay que tener cuidado al declarar la variable
+function countries(){
+    country = 'Colombia';
+    console.log(country);
+}
+//probamos
+countries();
+console.log(country);
+//En ambos se muestra el mismo resultado porque no le declaramos el tipo de variable en la función
